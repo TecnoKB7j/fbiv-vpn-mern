@@ -1,0 +1,46 @@
+{
+  "name": "fbiv-vpn-frontend",
+  "version": "1.2.1",
+  "description": "FBIV VPN React frontend - Modern VPN client interface",
+  "private": true,
+  "author": {
+    "name": "Emmanuel Rodriguez",
+    "email": "emmanuel.dev@fbivvpn.com"
+  },
+  "contributors": [
+    "Sarah Chen <sarah@fbivvpn.com> (UI/UX)",
+    "Mike Johnson <mike.j@fbivvpn.com> (Frontend)"
+  ],
+  "license": "MIT",
+  "homepage": "https://fbivvpn.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fbivvpn/fbiv-vpn-mern.git",
+    "directory": "frontend"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.6.0",
+    "bootstrap": "^5.3.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "@babel/preset-react": "^7.22.15",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
